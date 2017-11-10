@@ -10,7 +10,8 @@
 	
 	<h2>Quelques commandes de Git</h2>
 	
-	<p>-Suprimer un fichier grâce à la balise "git rm" pour que la suppresion soit indexé
+	<p>
+		<h3>-Suprimer un fichier grâce à la balise "git rm" pour que la suppresion soit indexé</h3>
 		<ul> Quelques spécifications
 		
 			<li>git rm -f force la suppresion d'un fichier modifié et indexé</li>
@@ -19,13 +20,43 @@
 		</ul>
 	</p>
 	
-	<p>-Pour </p>
+	<p>
+		<h3>-Pour sauvegarde(crée un nouveaux point "d'engrage") on utillise git commit</h3>
+		<ul>
+			<li>git commit -m "texte" pour ecrire directement le message (en Anglais)</li>
+		</ul>
+	</p>
 	
+	<p>
+		<h3>-Pour commencer le projet (créer la base) on utillise "git inti" [on peut/doit aller directement dans le(s) (sous-)répertoire ou on veut le créer]</h3>
 	
+	</p>
+	<p>
+		<h3>-Pour  sauvegarder(commencer à suivre) un dossier on utilise la commande git add "plus nom du fichier"</h3>
+		<ul>
+			<li>on peut aussi fait git add . on peut sauvegarder le fichier courant (tout ce qui a à l'interieur) </li>
+		</ul>
+	</p>
 	
+	<p>
+		<h3>-Pour crée une nouvelle branche on utitlise git branch "nom de la branche"</h3>
+		<ul>
+			<li>pour changer de branche on fait git checkout "nom de la branche" ne pas oublier de faire un git commit avant de changer de branche</li>
+			<li>pour "fusionner" (relier les informations) git merge "nom de l'autre fichiers" <strong>(d'abord se placer sur la branche qui reçoit la fusion!)</strong></li>
+		</ul>
+	</p>
+	<p>
+		<h3>Pour ramener une information a distance</h3>
+		<ol>
+			<li>tout d'abord crée un lien avec "git remode add leNomQuOnVeut url"</li>
+			<li>Pour tirer les informations "git pull leNomDuliens LaBrancheEnQuestion"</li>
+		</ol>
+		<h3>Pour envoyer une informationà distance</h3> 
+		<ol>
+			<li>tout d'abord faire un "git commit -m"</li>
+			<li>Pour envoyer l'information git push LeNomDuLiens LaBrancheEnQuestion</li>
+	</p>
 	
-	
-	
-	<p>liens qui m'ont aidé : <a href="https://git-scm.com/book/fr/v1/Les-bases-de-Git" target="_blank"> git-scm.com</a>
+	<p>sites qui m'ont aidé : <a href="https://git-scm.com/book/fr/v1/Les-bases-de-Git" target="_blank"> git-scm.com</a>
 	</body>
  </html>
